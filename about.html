@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- SEO Meta Tags -->
+  <title>About — Swastik Kumar Sahu | Full-Stack Developer & Designer</title>
+  <meta name="description" content="Learn about Swastik Kumar Sahu's journey as a full-stack developer and designer. Explore skills, experience, and the philosophy behind building accessible web experiences.">
+  <meta name="keywords" content="about, developer bio, skills, experience, accessibility advocate">
+  <meta name="author" content="Swastik Kumar Sahu">
+  <meta name="robots" content="index, follow">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="profile">
+  <meta property="og:title" content="About — Swastik Kumar Sahu">
+  <meta property="og:description" content="Learn about my journey, skills, and philosophy as a developer and designer.">
+  <meta property="og:url" content="https://Swastik Kumar Sahu.dev/about">
+
+  <!-- Canonical -->
+  <link rel="canonical" href="https://Swastik Kumar Sahu.dev/about">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <meta name="theme-color" content="#0f1118">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="bg-orbs" aria-hidden="true"></div>
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- ===================== SITE HEADER ===================== -->
+  <header class="site-header" role="banner">
+    <div class="container">
+      <a href="index.html" class="site-logo" aria-label="Swastik Kumar Sahu — Home">
+        <span class="logo-icon" aria-hidden="true">A</span>
+        <span>Swastik Kumar Sahu</span>
+      </a>
+
+      <button
+        class="nav-toggle"
+        id="nav-toggle"
+        aria-expanded="false"
+        aria-controls="primary-nav"
+        aria-label="Open navigation menu"
+      >
+        <span class="nav-toggle__icon" aria-hidden="true"></span>
+      </button>
+
+      <nav class="primary-nav" id="primary-nav" aria-label="Primary navigation" data-visible="false">
+        <ul class="primary-nav__list" role="list">
+          <li><a href="index.html" class="primary-nav__link">Home</a></li>
+          <li><a href="about.html" class="primary-nav__link" aria-current="page">About</a></li>
+          <li><a href="projects.html" class="primary-nav__link">Projects</a></li>
+          <li><a href="contact.html" class="primary-nav__link">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ===================== MAIN CONTENT ===================== -->
+  <main id="main-content">
+
+    <!-- PAGE HEADER -->
+    <div class="page-header">
+      <div class="container container--narrow">
+        <h1 class="page-header__title">About Me</h1>
+        <p class="page-header__description">
+          I'm a passionate developer and designer with 8+ years of experience 
+          building products that are as functional as they are beautiful.
+        </p>
+      </div>
+    </div>
+
+    <!-- BIO SECTION -->
+    <section class="section" aria-labelledby="bio-title" style="padding-top: 0;">
+      <div class="container container--narrow">
+        <div class="animate-on-scroll">
+          <h2 id="bio-title" class="sr-only">Biography</h2>
+          <div style="display: grid; grid-template-columns: 200px 1fr; gap: var(--space-2xl); align-items: start;">
+            <!-- Profile photo placeholder -->
+            <aside aria-label="Profile photo">
+              <div
+                style="width: 200px; height: 200px; border-radius: var(--radius-xl); background: var(--gradient-accent); display: flex; align-items: center; justify-content: center; font-size: 4rem; border: 2px solid var(--clr-border-glass);"
+                role="img"
+                aria-label="Swastik Kumar Sahu portrait"
+              >
+                👤
+              </div>
+            </aside>
+
+            <div>
+              <p style="margin-bottom: var(--space-lg);">
+                Hello! I'm Swastik Kumar Sahu, a full-stack developer and UI/UX designer based in 
+                San Francisco. I specialize in building accessible, performant web 
+                applications that solve real problems and deliver exceptional user experiences.
+              </p>
+              <p style="margin-bottom: var(--space-lg);">
+                My journey into tech started with a fascination for how design and 
+                engineering intersect. Over the past eight years, I've worked with 
+                startups, agencies, and enterprise teams to ship products used by 
+                millions of people worldwide.
+              </p>
+              <p>
+                When I'm not coding, you'll find me contributing to open-source 
+                accessibility tools, mentoring junior developers, or hiking the 
+                trails around the Bay Area.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS SECTION -->
+    <section class="section" aria-labelledby="skills-title">
+      <div class="container container--narrow">
+        <header class="section__header" style="text-align: left;">
+          <span class="section__label">Technical Skills</span>
+          <h2 id="skills-title" class="section__title">Technologies I Work With</h2>
+        </header>
+
+        <div class="skills-grid stagger-children" role="list" aria-label="Technical skills">
+          <div class="skill-item" role="listitem">
+            <span class="skill-item__icon" aria-hidden="true">⚛️</span>
+            <span class="skill-item__name">React</span>
+          </div>
+          <div class="skill-item" role="listitem">
+            <span class="skill-item__icon" aria-hidden="true">🟢</span>
+            <span class="skill-item__name">Vue.js</span>
+          </div>
+          <div class="skill-item" role="listitem">
+            <span class="skill-item__icon" aria-hidden="true">📘</span>
+            <span class="skill-item__name">TypeScript</span>
+          </div>
+          <div class="skill-item" role="listitem">
+            <span class="skill-item__icon" aria-hidden="true">🟩</span>
+            <span class="skill-item__name">Node.js</span>
+          </div>
+          <div class="skill-item" role="listitem">
+            <span class="skill-item__icon" aria-hidden="true">🐍</span>
+            <span class="skill-item__name">Python</span>
+          </div>
+          <div class="skill-item" role="listitem">
+            <span class="skill-item__icon" aria-hidden="true">🐘</span>
+            <span class="skill-item__name">PostgreSQL</span>
+          </div>
+          <div class="skill-item" role="listitem">
+            <span class="skill-item__icon" aria-hidden="true">🎨</span>
+            <span class="skill-item__name">Figma</span>
+          </div>
+          <div class="skill-item" role="listitem">
+            <span class="skill-item__icon" aria-hidden="true">☁️</span>
+            <span class="skill-item__name">AWS</span>
+          </div>
+          <div class="skill-item" role="listitem">
+            <span class="skill-item__icon" aria-hidden="true">🐳</span>
+            <span class="skill-item__name">Docker</span>
+          </div>
+          <div class="skill-item" role="listitem">
+            <span class="skill-item__icon" aria-hidden="true">📊</span>
+            <span class="skill-item__name">GraphQL</span>
+          </div>
+          <div class="skill-item" role="listitem">
+            <span class="skill-item__icon" aria-hidden="true">🔄</span>
+            <span class="skill-item__name">Git</span>
+          </div>
+          <div class="skill-item" role="listitem">
+            <span class="skill-item__icon" aria-hidden="true">♿</span>
+            <span class="skill-item__name">WCAG/A11y</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE TIMELINE -->
+    <section class="section" aria-labelledby="experience-title">
+      <div class="container container--narrow">
+        <header class="section__header" style="text-align: left;">
+          <span class="section__label">Experience</span>
+          <h2 id="experience-title" class="section__title">Career Journey</h2>
+        </header>
+
+        <div class="timeline animate-on-scroll" role="list" aria-label="Career timeline">
+          <div class="timeline__item" role="listitem">
+            <span class="timeline__year">2023 — Present</span>
+            <h3 class="timeline__title">Senior Developer — Freelance</h3>
+            <p class="timeline__text">
+              Working independently with clients worldwide, building custom web 
+              applications with a focus on accessibility and performance.
+            </p>
+          </div>
+
+          <div class="timeline__item" role="listitem">
+            <span class="timeline__year">2020 — 2023</span>
+            <h3 class="timeline__title">Lead Frontend Engineer — TechCorp</h3>
+            <p class="timeline__text">
+              Led a team of 6 engineers, architected the company's design system, 
+              and improved core web vitals by 40% across all products.
+            </p>
+          </div>
+
+          <div class="timeline__item" role="listitem">
+            <span class="timeline__year">2018 — 2020</span>
+            <h3 class="timeline__title">Full-Stack Developer — Digital Agency</h3>
+            <p class="timeline__text">
+              Developed and shipped 20+ client projects ranging from e-commerce 
+              platforms to SaaS dashboards using React and Node.js.
+            </p>
+          </div>
+
+          <div class="timeline__item" role="listitem">
+            <span class="timeline__year">2016 — 2018</span>
+            <h3 class="timeline__title">Junior Developer — StartupXYZ</h3>
+            <p class="timeline__text">
+              Started my career building MVPs and learning the craft of writing 
+              clean, maintainable code in fast-paced environments.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- VALUES -->
+    <section class="section" aria-labelledby="values-title">
+      <div class="container">
+        <header class="section__header">
+          <span class="section__label">Philosophy</span>
+          <h2 id="values-title" class="section__title">What Drives Me</h2>
+        </header>
+
+        <div class="cards-grid stagger-children" role="list" aria-label="Core values">
+          <article class="card" role="listitem">
+            <div class="card__icon card__icon--purple" aria-hidden="true">♿</div>
+            <h3 class="card__title">Accessibility First</h3>
+            <p class="card__text">
+              Every user deserves equal access. I build with WCAG guidelines at 
+              the foundation, not as an afterthought.
+            </p>
+          </article>
+
+          <article class="card" role="listitem">
+            <div class="card__icon card__icon--teal" aria-hidden="true">✨</div>
+            <h3 class="card__title">Craft & Quality</h3>
+            <p class="card__text">
+              Attention to detail separates good products from great ones. I sweat 
+              the small stuff so your users don't have to.
+            </p>
+          </article>
+
+          <article class="card" role="listitem">
+            <div class="card__icon card__icon--amber" aria-hidden="true">🤝</div>
+            <h3 class="card__title">Collaboration</h3>
+            <p class="card__text">
+              The best work happens together. I believe in open communication, 
+              shared ownership, and iterative feedback loops.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===================== SITE FOOTER ===================== -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <div class="footer__inner">
+        <p class="footer__copyright">
+          © <time datetime="2026">2026</time> Swastik Kumar Sahu. All rights reserved.
+        </p>
+        <nav aria-label="Social media links">
+          <ul class="footer__social" role="list">
+            <li>
+              <a href="https://github.com" class="footer__social-link" aria-label="GitHub profile" target="_blank" rel="noopener noreferrer">
+                <span aria-hidden="true">GH</span>
+              </a>
+            </li>
+            <li>
+              <a href="https://linkedin.com" class="footer__social-link" aria-label="LinkedIn profile" target="_blank" rel="noopener noreferrer">
+                <span aria-hidden="true">LI</span>
+              </a>
+            </li>
+            <li>
+              <a href="https://twitter.com" class="footer__social-link" aria-label="Twitter profile" target="_blank" rel="noopener noreferrer">
+                <span aria-hidden="true">TW</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- SEO Meta Tags -->
+  <title>Swastik Kumar Sahu — Full-Stack Developer</title>
+  <meta name="description" content="Swastik Kumar Sahu is a full-stack developer and designer crafting elegant, accessible web experiences. Explore projects, skills, and get in touch.">
+  <meta name="keywords" content="full-stack developer, web designer, portfolio, accessibility, UI/UX">
+  <meta name="author" content="Swastik Kumar Sahu">
+  <meta name="robots" content="index, follow">
+
+  <!-- Open Graph / Social -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Swastik Kumar Sahu — Full-Stack Developer & Designer">
+  <meta property="og:description" content="Crafting elegant, accessible web experiences with modern technologies.">
+  <meta property="og:url" content="https://swastikkumarsahu.dev">
+  <meta property="og:locale" content="en_US">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Swastik Kumar Sahu — Full-Stack Developer & Designer">
+  <meta name="twitter:description" content="Crafting elegant, accessible web experiences with modern technologies.">
+
+  <!-- Canonical -->
+  <link rel="canonical" href="https://swastikkumarsahu.dev/">
+
+  <!-- Preconnect for fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Theme color -->
+  <meta name="theme-color" content="#0f1118">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Ambient background orbs (decorative) -->
+  <div class="bg-orbs" aria-hidden="true"></div>
+
+  <!-- Skip to main content — WCAG 2.4.1 -->
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- ===================== SITE HEADER ===================== -->
+  <header class="site-header" role="banner">
+    <div class="container">
+      <a href="index.html" class="site-logo" aria-label="Swastik Kumar Sahu — Home">
+        <span class="logo-icon" aria-hidden="true">S</span>
+        <span>Swastik Kumar Sahu</span>
+      </a>
+
+      <!-- Mobile nav toggle -->
+      <button
+        class="nav-toggle"
+        id="nav-toggle"
+        aria-expanded="false"
+        aria-controls="primary-nav"
+        aria-label="Open navigation menu"
+      >
+        <span class="nav-toggle__icon" aria-hidden="true"></span>
+      </button>
+
+      <!-- Primary navigation -->
+      <nav class="primary-nav" id="primary-nav" aria-label="Primary navigation" data-visible="false">
+        <ul class="primary-nav__list" role="list">
+          <li><a href="index.html" class="primary-nav__link" aria-current="page">Home</a></li>
+          <li><a href="about.html" class="primary-nav__link">About</a></li>
+          <li><a href="projects.html" class="primary-nav__link">Projects</a></li>
+          <li><a href="contact.html" class="primary-nav__link">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ===================== MAIN CONTENT ===================== -->
+  <main id="main-content">
+
+    <!-- HERO SECTION -->
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="container">
+        <div class="hero__content">
+          <span class="hero__badge" aria-label="Currently available for freelance work">
+            <span class="pulse-dot" aria-hidden="true"></span>
+            Available for Freelance
+          </span>
+
+          <h1 id="hero-title" class="hero__title">
+            Building <span class="gradient-text">Digital Experiences</span> That Matter
+          </h1>
+
+          <p class="hero__subtitle">
+            I'm a full-stack developer and designer specializing in creating accessible, 
+            performant, and beautifully crafted web applications that delight users.
+          </p>
+
+          <div class="hero__actions">
+            <a href="projects.html" class="btn btn--primary">
+              View My Work
+              <span aria-hidden="true">→</span>
+            </a>
+            <a href="contact.html" class="btn btn--secondary">
+              Get in Touch
+            </a>
+          </div>
+
+          <!-- Stats -->
+          <div class="stats-row" role="list" aria-label="Professional statistics">
+            <div class="stat" role="listitem">
+              <span class="stat__number">50+</span>
+              <span class="stat__label">Projects Delivered</span>
+            </div>
+            <div class="stat" role="listitem">
+              <span class="stat__number">8+</span>
+              <span class="stat__label">Years Experience</span>
+            </div>
+            <div class="stat" role="listitem">
+              <span class="stat__number">30+</span>
+              <span class="stat__label">Happy Clients</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- WHAT I DO -->
+    <section class="section" aria-labelledby="services-title">
+      <div class="container">
+        <header class="section__header">
+          <span class="section__label">What I Do</span>
+          <h2 id="services-title" class="section__title">Expertise & Services</h2>
+          <p class="section__description">
+            From concept to deployment, I bring ideas to life with a focus on quality, 
+            accessibility, and user-centered design.
+          </p>
+        </header>
+
+        <div class="cards-grid stagger-children" role="list" aria-label="Services offered">
+          <!-- Card 1 -->
+          <article class="card" role="listitem">
+            <div class="card__icon card__icon--purple" aria-hidden="true">🎨</div>
+            <h3 class="card__title">UI/UX Design</h3>
+            <p class="card__text">
+              Crafting intuitive interfaces with a deep focus on user research, 
+              wireframing, prototyping, and design systems that scale.
+            </p>
+          </article>
+
+          <!-- Card 2 -->
+          <article class="card" role="listitem">
+            <div class="card__icon card__icon--teal" aria-hidden="true">⚡</div>
+            <h3 class="card__title">Frontend Development</h3>
+            <p class="card__text">
+              Building performant, responsive web applications using React, Vue, 
+              and modern CSS with pixel-perfect implementation.
+            </p>
+          </article>
+
+          <!-- Card 3 -->
+          <article class="card" role="listitem">
+            <div class="card__icon card__icon--amber" aria-hidden="true">🔧</div>
+            <h3 class="card__title">Backend & APIs</h3>
+            <p class="card__text">
+              Designing robust server architectures with Node.js, Python, and 
+              cloud services — secure, scalable, and well-documented.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- FEATURED PROJECTS PREVIEW -->
+    <section class="section" aria-labelledby="featured-title">
+      <div class="container">
+        <header class="section__header">
+          <span class="section__label">Selected Work</span>
+          <h2 id="featured-title" class="section__title">Featured Projects</h2>
+          <p class="section__description">
+            A curated selection of recent work showcasing my approach to solving 
+            complex design and engineering challenges.
+          </p>
+        </header>
+
+        <div class="cards-grid" role="list" aria-label="Featured projects">
+          <!-- Project 1 -->
+          <article class="project-card animate-on-scroll" role="listitem">
+            <div class="project-card__image" style="background: linear-gradient(135deg, hsla(250, 60%, 35%, 0.6), hsla(175, 50%, 30%, 0.4)); display: flex; align-items: center; justify-content: center; font-size: 3rem;" role="img" aria-label="Lumina Analytics dashboard preview">
+              📊
+            </div>
+            <div class="project-card__body">
+              <h3 class="project-card__title">Lumina Analytics</h3>
+              <p class="project-card__description">
+                A real-time data analytics dashboard with interactive visualizations 
+                and AI-driven insights for enterprise clients.
+              </p>
+              <div class="project-card__tags" aria-label="Technologies used">
+                <span class="tag">React</span>
+                <span class="tag tag--teal">D3.js</span>
+                <span class="tag">Node.js</span>
+              </div>
+              <div class="project-card__links">
+                <a href="projects.html" class="btn btn--ghost">View Details →</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 2 -->
+          <article class="project-card animate-on-scroll" role="listitem">
+            <div class="project-card__image" style="background: linear-gradient(135deg, hsla(175, 50%, 30%, 0.6), hsla(40, 50%, 35%, 0.4)); display: flex; align-items: center; justify-content: center; font-size: 3rem;" role="img" aria-label="EcoTrack mobile application preview">
+              🌱
+            </div>
+            <div class="project-card__body">
+              <h3 class="project-card__title">EcoTrack</h3>
+              <p class="project-card__description">
+                A sustainability tracking platform helping organizations 
+                measure and reduce their environmental footprint.
+              </p>
+              <div class="project-card__tags" aria-label="Technologies used">
+                <span class="tag">Vue.js</span>
+                <span class="tag tag--teal">Python</span>
+                <span class="tag">PostgreSQL</span>
+              </div>
+              <div class="project-card__links">
+                <a href="projects.html" class="btn btn--ghost">View Details →</a>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <div style="text-align: center; margin-top: var(--space-2xl);">
+          <a href="projects.html" class="btn btn--secondary">
+            View All Projects
+            <span aria-hidden="true">→</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA SECTION -->
+    <section class="section" aria-labelledby="cta-title" style="text-align: center;">
+      <div class="container container--narrow animate-on-scroll">
+        <span class="section__label">Let's Collaborate</span>
+        <h2 id="cta-title" class="section__title" style="margin-bottom: var(--space-md);">Have a Project in Mind?</h2>
+        <p class="section__description" style="margin-bottom: var(--space-2xl);">
+          I'm always excited to work on new challenges. Whether you need a 
+          complete web application or help refining an existing product, 
+          let's talk.
+        </p>
+        <a href="contact.html" class="btn btn--primary">
+          Start a Conversation
+          <span aria-hidden="true">→</span>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===================== SITE FOOTER ===================== -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <div class="footer__inner">
+        <p class="footer__copyright">
+          © <time datetime="2026">2026</time> Swastik Kumar Sahu. All rights reserved.
+        </p>
+
+        <nav aria-label="Social media links">
+          <ul class="footer__social" role="list">
+            <li>
+              <a href="https://github.com" class="footer__social-link" aria-label="GitHub profile" target="_blank" rel="noopener noreferrer">
+                <span aria-hidden="true">GH</span>
+              </a>
+            </li>
+            <li>
+              <a href="https://linkedin.com" class="footer__social-link" aria-label="LinkedIn profile" target="_blank" rel="noopener noreferrer">
+                <span aria-hidden="true">LI</span>
+              </a>
+            </li>
+            <li>
+              <a href="https://twitter.com" class="footer__social-link" aria-label="Twitter profile" target="_blank" rel="noopener noreferrer">
+                <span aria-hidden="true">TW</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="main.js"></script>
+</body>
+</html>

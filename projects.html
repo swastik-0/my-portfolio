@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- SEO Meta Tags -->
+  <title>Projects — Swastik Kumar Sahu | Web Development Portfolio</title>
+  <meta name="description" content="Browse Swastik Kumar Sahu's portfolio of web development and design projects. Each project showcases modern technologies, accessibility best practices, and thoughtful design.">
+  <meta name="keywords" content="web projects, portfolio, case studies, React, Vue, Node.js, full-stack">
+  <meta name="author" content="Swastik Kumar Sahu">
+  <meta name="robots" content="index, follow">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Projects — Swastik Kumar Sahu">
+  <meta property="og:description" content="A curated collection of web development and design projects.">
+  <meta property="og:url" content="https://swastikkumarsahu.dev/projects">
+
+  <!-- Canonical -->
+  <link rel="canonical" href="https://swastikkumarsahu.dev/projects">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <meta name="theme-color" content="#0f1118">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="bg-orbs" aria-hidden="true"></div>
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- ===================== SITE HEADER ===================== -->
+  <header class="site-header" role="banner">
+    <div class="container">
+      <a href="index.html" class="site-logo" aria-label="Swastik Kumar Sahu — Home">
+        <span class="logo-icon" aria-hidden="true">A</span>
+        <span>Swastik Kumar Sahu</span>
+      </a>
+
+      <button
+        class="nav-toggle"
+        id="nav-toggle"
+        aria-expanded="false"
+        aria-controls="primary-nav"
+        aria-label="Open navigation menu"
+      >
+        <span class="nav-toggle__icon" aria-hidden="true"></span>
+      </button>
+
+      <nav class="primary-nav" id="primary-nav" aria-label="Primary navigation" data-visible="false">
+        <ul class="primary-nav__list" role="list">
+          <li><a href="index.html" class="primary-nav__link">Home</a></li>
+          <li><a href="about.html" class="primary-nav__link">About</a></li>
+          <li><a href="projects.html" class="primary-nav__link" aria-current="page">Projects</a></li>
+          <li><a href="contact.html" class="primary-nav__link">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ===================== MAIN CONTENT ===================== -->
+  <main id="main-content">
+
+    <!-- PAGE HEADER -->
+    <div class="page-header">
+      <div class="container container--narrow">
+        <h1 class="page-header__title">Projects</h1>
+        <p class="page-header__description">
+          A selection of projects I've designed and built — from real-time 
+          dashboards to accessible e-commerce platforms.
+        </p>
+      </div>
+    </div>
+
+    <!-- PROJECTS GRID -->
+    <section class="section" aria-labelledby="all-projects-title" style="padding-top: 0;">
+      <div class="container">
+        <h2 id="all-projects-title" class="sr-only">All Projects</h2>
+
+        <div class="cards-grid" role="list" aria-label="Project portfolio">
+
+          <!-- Project 1 -->
+          <article class="project-card animate-on-scroll" role="listitem">
+            <div
+              class="project-card__image"
+              style="background: linear-gradient(135deg, hsla(250, 60%, 35%, 0.6), hsla(175, 50%, 30%, 0.4)); display: flex; align-items: center; justify-content: center; font-size: 3rem;"
+              role="img"
+              aria-label="Lumina Analytics project screenshot"
+            >📊</div>
+            <div class="project-card__body">
+              <h3 class="project-card__title">Lumina Analytics</h3>
+              <p class="project-card__description">
+                A real-time data analytics dashboard with interactive charts, 
+                AI-powered insights, and customizable reporting for enterprise 
+                clients managing complex datasets.
+              </p>
+              <div class="project-card__tags" aria-label="Technologies used">
+                <span class="tag">React</span>
+                <span class="tag tag--teal">D3.js</span>
+                <span class="tag">Node.js</span>
+                <span class="tag tag--teal">WebSocket</span>
+              </div>
+              <div class="project-card__links">
+                <a href="#" class="btn btn--ghost" aria-label="View Lumina Analytics live demo">Live Demo →</a>
+                <a href="#" class="btn btn--ghost" aria-label="View Lumina Analytics source code">Source Code →</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 2 -->
+          <article class="project-card animate-on-scroll" role="listitem">
+            <div
+              class="project-card__image"
+              style="background: linear-gradient(135deg, hsla(175, 50%, 30%, 0.6), hsla(40, 50%, 35%, 0.4)); display: flex; align-items: center; justify-content: center; font-size: 3rem;"
+              role="img"
+              aria-label="EcoTrack project screenshot"
+            >🌱</div>
+            <div class="project-card__body">
+              <h3 class="project-card__title">EcoTrack</h3>
+              <p class="project-card__description">
+                A sustainability tracking platform that helps organizations 
+                monitor, analyze, and reduce their environmental impact with 
+                real-time carbon footprint calculations.
+              </p>
+              <div class="project-card__tags" aria-label="Technologies used">
+                <span class="tag">Vue.js</span>
+                <span class="tag tag--teal">Python</span>
+                <span class="tag">PostgreSQL</span>
+                <span class="tag tag--teal">Chart.js</span>
+              </div>
+              <div class="project-card__links">
+                <a href="#" class="btn btn--ghost" aria-label="View EcoTrack live demo">Live Demo →</a>
+                <a href="#" class="btn btn--ghost" aria-label="View EcoTrack source code">Source Code →</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 3 -->
+          <article class="project-card animate-on-scroll" role="listitem">
+            <div
+              class="project-card__image"
+              style="background: linear-gradient(135deg, hsla(40, 60%, 35%, 0.6), hsla(250, 40%, 30%, 0.4)); display: flex; align-items: center; justify-content: center; font-size: 3rem;"
+              role="img"
+              aria-label="Velvet Commerce project screenshot"
+            >🛍️</div>
+            <div class="project-card__body">
+              <h3 class="project-card__title">Velvet Commerce</h3>
+              <p class="project-card__description">
+                A WCAG AAA-compliant e-commerce platform featuring an accessible 
+                checkout flow, smart search, and an inclusive design system used 
+                across 15+ retail brands.
+              </p>
+              <div class="project-card__tags" aria-label="Technologies used">
+                <span class="tag">Next.js</span>
+                <span class="tag tag--teal">Stripe</span>
+                <span class="tag">TypeScript</span>
+                <span class="tag tag--teal">Prisma</span>
+              </div>
+              <div class="project-card__links">
+                <a href="#" class="btn btn--ghost" aria-label="View Velvet Commerce live demo">Live Demo →</a>
+                <a href="#" class="btn btn--ghost" aria-label="View Velvet Commerce source code">Source Code →</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 4 -->
+          <article class="project-card animate-on-scroll" role="listitem">
+            <div
+              class="project-card__image"
+              style="background: linear-gradient(135deg, hsla(0, 50%, 35%, 0.5), hsla(280, 50%, 30%, 0.4)); display: flex; align-items: center; justify-content: center; font-size: 3rem;"
+              role="img"
+              aria-label="Pulse Health project screenshot"
+            >💓</div>
+            <div class="project-card__body">
+              <h3 class="project-card__title">Pulse Health</h3>
+              <p class="project-card__description">
+                A telemedicine platform connecting patients with healthcare 
+                providers through secure video consultations, appointment 
+                scheduling, and health record management.
+              </p>
+              <div class="project-card__tags" aria-label="Technologies used">
+                <span class="tag">React</span>
+                <span class="tag tag--teal">WebRTC</span>
+                <span class="tag">Express</span>
+                <span class="tag tag--teal">MongoDB</span>
+              </div>
+              <div class="project-card__links">
+                <a href="#" class="btn btn--ghost" aria-label="View Pulse Health live demo">Live Demo →</a>
+                <a href="#" class="btn btn--ghost" aria-label="View Pulse Health source code">Source Code →</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 5 -->
+          <article class="project-card animate-on-scroll" role="listitem">
+            <div
+              class="project-card__image"
+              style="background: linear-gradient(135deg, hsla(220, 55%, 35%, 0.6), hsla(175, 45%, 35%, 0.4)); display: flex; align-items: center; justify-content: center; font-size: 3rem;"
+              role="img"
+              aria-label="DevFlow project screenshot"
+            >🔧</div>
+            <div class="project-card__body">
+              <h3 class="project-card__title">DevFlow</h3>
+              <p class="project-card__description">
+                A developer productivity tool that streamlines CI/CD pipelines, 
+                provides deployment previews, and integrates with GitHub for 
+                seamless team collaboration.
+              </p>
+              <div class="project-card__tags" aria-label="Technologies used">
+                <span class="tag">Svelte</span>
+                <span class="tag tag--teal">Go</span>
+                <span class="tag">Docker</span>
+                <span class="tag tag--teal">Redis</span>
+              </div>
+              <div class="project-card__links">
+                <a href="#" class="btn btn--ghost" aria-label="View DevFlow live demo">Live Demo →</a>
+                <a href="#" class="btn btn--ghost" aria-label="View DevFlow source code">Source Code →</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 6 -->
+          <article class="project-card animate-on-scroll" role="listitem">
+            <div
+              class="project-card__image"
+              style="background: linear-gradient(135deg, hsla(280, 50%, 35%, 0.5), hsla(40, 50%, 35%, 0.4)); display: flex; align-items: center; justify-content: center; font-size: 3rem;"
+              role="img"
+              aria-label="Lexicon project screenshot"
+            >📚</div>
+            <div class="project-card__body">
+              <h3 class="project-card__title">Lexicon</h3>
+              <p class="project-card__description">
+                An open-source documentation platform with full-text search, 
+                versioning, and a Markdown-based editor. Powers documentation 
+                for several popular developer tools.
+              </p>
+              <div class="project-card__tags" aria-label="Technologies used">
+                <span class="tag">Astro</span>
+                <span class="tag tag--teal">MDX</span>
+                <span class="tag">Algolia</span>
+                <span class="tag tag--teal">Vercel</span>
+              </div>
+              <div class="project-card__links">
+                <a href="#" class="btn btn--ghost" aria-label="View Lexicon live demo">Live Demo →</a>
+                <a href="#" class="btn btn--ghost" aria-label="View Lexicon source code">Source Code →</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="section" aria-labelledby="projects-cta-title" style="text-align: center;">
+      <div class="container container--narrow animate-on-scroll">
+        <span class="section__label">Interested?</span>
+        <h2 id="projects-cta-title" class="section__title" style="margin-bottom: var(--space-md);">Let's Build Something Together</h2>
+        <p class="section__description" style="margin-bottom: var(--space-2xl);">
+          Have an idea you'd like to bring to life? I'm currently accepting 
+          new projects and would love to hear about yours.
+        </p>
+        <a href="contact.html" class="btn btn--primary">
+          Start a Conversation
+          <span aria-hidden="true">→</span>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===================== SITE FOOTER ===================== -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <div class="footer__inner">
+        <p class="footer__copyright">
+          © <time datetime="2026">2026</time> Swastik Kumar Sahu. All rights reserved.
+        </p>
+        <nav aria-label="Social media links">
+          <ul class="footer__social" role="list">
+            <li>
+              <a href="https://github.com" class="footer__social-link" aria-label="GitHub profile" target="_blank" rel="noopener noreferrer">
+                <span aria-hidden="true">GH</span>
+              </a>
+            </li>
+            <li>
+              <a href="https://linkedin.com" class="footer__social-link" aria-label="LinkedIn profile" target="_blank" rel="noopener noreferrer">
+                <span aria-hidden="true">LI</span>
+              </a>
+            </li>
+            <li>
+              <a href="https://twitter.com" class="footer__social-link" aria-label="Twitter profile" target="_blank" rel="noopener noreferrer">
+                <span aria-hidden="true">TW</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>

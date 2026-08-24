@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- SEO Meta Tags -->
+  <title>Contact — Swastik Kumar Sahu | Get in Touch</title>
+  <meta name="description" content="Get in touch with Swastik Kumar Sahu for freelance web development, design projects, or collaboration opportunities. Fill out the contact form or reach out directly.">
+  <meta name="keywords" content="contact, hire developer, freelance, web development inquiry">
+  <meta name="author" content="Swastik Kumar Sahu">
+  <meta name="robots" content="index, follow">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Contact — Swastik Kumar Sahu">
+  <meta property="og:description" content="Get in touch for freelance projects, collaborations, or just to say hello.">
+  <meta property="og:url" content="https://Swastik Kumar Sahu.dev/contact">
+
+  <!-- Canonical -->
+  <link rel="canonical" href="https://Swastik Kumar Sahu.dev/contact">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <meta name="theme-color" content="#0f1118">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="bg-orbs" aria-hidden="true"></div>
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- ===================== SITE HEADER ===================== -->
+  <header class="site-header" role="banner">
+    <div class="container">
+      <a href="index.html" class="site-logo" aria-label="Swastik Kumar Sahu — Home">
+        <span class="logo-icon" aria-hidden="true">A</span>
+        <span>Swastik Kumar Sahu</span>
+      </a>
+
+      <button
+        class="nav-toggle"
+        id="nav-toggle"
+        aria-expanded="false"
+        aria-controls="primary-nav"
+        aria-label="Open navigation menu"
+      >
+        <span class="nav-toggle__icon" aria-hidden="true"></span>
+      </button>
+
+      <nav class="primary-nav" id="primary-nav" aria-label="Primary navigation" data-visible="false">
+        <ul class="primary-nav__list" role="list">
+          <li><a href="index.html" class="primary-nav__link">Home</a></li>
+          <li><a href="about.html" class="primary-nav__link">About</a></li>
+          <li><a href="projects.html" class="primary-nav__link">Projects</a></li>
+          <li><a href="contact.html" class="primary-nav__link" aria-current="page">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ===================== MAIN CONTENT ===================== -->
+  <main id="main-content">
+
+    <!-- PAGE HEADER -->
+    <div class="page-header">
+      <div class="container container--narrow">
+        <h1 class="page-header__title">Get in Touch</h1>
+        <p class="page-header__description">
+          Have a project idea, question, or just want to say hello? I'd love 
+          to hear from you. Fill out the form below or reach out through any 
+          of my channels.
+        </p>
+      </div>
+    </div>
+
+    <!-- CONTACT SECTION -->
+    <section class="section" aria-labelledby="contact-section-title" style="padding-top: 0;">
+      <div class="container">
+        <h2 id="contact-section-title" class="sr-only">Contact Information and Form</h2>
+
+        <div class="contact-layout">
+
+          <!-- CONTACT INFO (left column) -->
+          <aside class="contact-info animate-on-scroll" aria-label="Contact details and social links">
+            <h3 class="contact-info__title">Let's Start a Conversation</h3>
+            <p class="contact-info__text">
+              I'm currently available for freelance work and open to 
+              discussing new opportunities. Response time is typically 
+              within 24 hours.
+            </p>
+
+            <div class="contact-links">
+              <a href="mailto:swastikkumarsahu77@gmail.com" class="contact-link" aria-label="Send email to swastikkumarsahu77@gmail.com">
+                <span class="contact-link__icon" aria-hidden="true">✉️</span>
+                <div>
+                  <span class="contact-link__label">Email</span>
+                  <span class="contact-link__value">swastikkumarsahu77@gmail.com</span>
+                </div>
+              </a>
+
+              <a href="https://www.linkedin.com/in/swastik-kumar-sahu-b223b7315" class="contact-link" target="_blank" rel="noopener noreferrer" aria-label="Connect on LinkedIn">
+                <span class="contact-link__icon" aria-hidden="true">💼</span>
+                <div>
+                  <span class="contact-link__label">LinkedIn</span>
+                  <span class="contact-link__value">www.linkedin.com/in/swastik-kumar-sahu-b223b7315</span>
+                </div>
+              </a>
+
+              <a href="https://github.com/swastik-0" class="contact-link" target="_blank" rel="noopener noreferrer" aria-label="View GitHub profile">
+                <span class="contact-link__icon" aria-hidden="true">💻</span>
+                <div>
+                  <span class="contact-link__label">GitHub</span>
+                  <span class="contact-link__value">https://github.com/swastik-0</span>
+                </div>
+              </a>
+            </div>
+          </aside>
+
+          <!-- CONTACT FORM (right column) -->
+          <div class="animate-on-scroll" style="animation-delay: 0.15s;">
+            <form
+              id="contact-form"
+              class="form"
+              action="#"
+              method="post"
+              novalidate
+              aria-label="Contact form"
+            >
+              <fieldset style="border: none; padding: 0; margin: 0;">
+                <legend class="sr-only">Send a message to Swastik Kumar Sahu</legend>
+
+                <!-- Name -->
+                <div class="form__group">
+                  <label for="contact-name" class="form__label">
+                    Full Name <span class="required" aria-label="required">*</span>
+                  </label>
+                  <input
+                    type="text"
+                    id="contact-name"
+                    name="name"
+                    class="form__input"
+                    placeholder="Jane Smith"
+                    required
+                    autocomplete="name"
+                    aria-required="true"
+                  >
+                  <p class="form__error" id="contact-name-error" aria-live="polite"></p>
+                </div>
+
+                <!-- Email -->
+                <div class="form__group">
+                  <label for="contact-email" class="form__label">
+                    Email Address <span class="required" aria-label="required">*</span>
+                  </label>
+                  <input
+                    type="email"
+                    id="contact-email"
+                    name="email"
+                    class="form__input"
+                    placeholder="jane@example.com"
+                    required
+                    autocomplete="email"
+                    aria-required="true"
+                  >
+                  <p class="form__error" id="contact-email-error" aria-live="polite"></p>
+                </div>
+
+                <!-- Subject -->
+                <div class="form__group">
+                  <label for="contact-subject" class="form__label">
+                    Subject <span class="required" aria-label="required">*</span>
+                  </label>
+                  <input
+                    type="text"
+                    id="contact-subject"
+                    name="subject"
+                    class="form__input"
+                    placeholder="Project inquiry"
+                    required
+                    aria-required="true"
+                  >
+                  <p class="form__error" id="contact-subject-error" aria-live="polite"></p>
+                </div>
+
+                <!-- Message -->
+                <div class="form__group">
+                  <label for="contact-message" class="form__label">
+                    Message <span class="required" aria-label="required">*</span>
+                  </label>
+                  <textarea
+                    id="contact-message"
+                    name="message"
+                    class="form__textarea"
+                    placeholder="Tell me about your project, timeline, and budget..."
+                    required
+                    aria-required="true"
+                    rows="5"
+                  ></textarea>
+                  <p class="form__error" id="contact-message-error" aria-live="polite"></p>
+                </div>
+
+                <!-- Submit -->
+                <button type="submit" class="btn btn--primary form__submit" id="contact-submit">
+                  Send Message
+                  <span aria-hidden="true">→</span>
+                </button>
+              </fieldset>
+
+              <!-- Success message -->
+              <div class="form__success" id="form-success" aria-live="polite">
+                ✅ Message sent successfully! I'll get back to you within 24 hours.
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ SECTION -->
+    <section class="section" aria-labelledby="faq-title">
+      <div class="container container--narrow">
+        <header class="section__header">
+          <span class="section__label">FAQ</span>
+          <h2 id="faq-title" class="section__title">Common Questions</h2>
+        </header>
+
+        <div class="stagger-children" role="list" aria-label="Frequently asked questions">
+          <article class="card" role="listitem" style="margin-bottom: var(--space-md);">
+            <h3 class="card__title">What's your typical project timeline?</h3>
+            <p class="card__text">
+              Most projects take 4–8 weeks from kickoff to launch, depending on 
+              complexity. I'll provide a detailed timeline estimate during our 
+              initial consultation.
+            </p>
+          </article>
+
+          <article class="card" role="listitem" style="margin-bottom: var(--space-md);">
+            <h3 class="card__title">Do you work with international clients?</h3>
+            <p class="card__text">
+              Absolutely! I work with clients worldwide and am comfortable 
+              collaborating across time zones. I use asynchronous communication 
+              tools to ensure smooth collaboration.
+            </p>
+          </article>
+
+          <article class="card" role="listitem">
+            <h3 class="card__title">What does your development process look like?</h3>
+            <p class="card__text">
+              I follow an iterative process: discovery → design → development → 
+              testing → launch. You'll be involved at every stage with regular 
+              check-ins and demo sessions.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===================== SITE FOOTER ===================== -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <div class="footer__inner">
+        <p class="footer__copyright">
+          © <time datetime="2026">2026</time> Swastik Kumar Sahu. All rights reserved.
+        </p>
+        <nav aria-label="Social media links">
+          <ul class="footer__social" role="list">
+            <li>
+              <a href="https://github.com" class="footer__social-link" aria-label="GitHub profile" target="_blank" rel="noopener noreferrer">
+                <span aria-hidden="true">GH</span>
+              </a>
+            </li>
+            <li>
+              <a href="https://linkedin.com" class="footer__social-link" aria-label="LinkedIn profile" target="_blank" rel="noopener noreferrer">
+                <span aria-hidden="true">LI</span>
+              </a>
+            </li>
+            <li>
+              <a href="https://twitter.com" class="footer__social-link" aria-label="Twitter profile" target="_blank" rel="noopener noreferrer">
+                <span aria-hidden="true">TW</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
